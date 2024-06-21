@@ -1,0 +1,38 @@
+# Java Build
+.gradle
+.classpath
+dump.rdb
+out
+bin
+target
+buildscan.log
+/docs/site
+
+# Python
+/polyglot-clients/python/conductor.egg-info
+*.pyc
+
+# OS & IDE
+.DS_Store
+.settings
+.vscode
+.idea
+.project
+*.iml
+
+# JS & UI Related
+node_modules
+/ui/build
+/ui/public/monaco-editor
+
+# publishing secrets
+secrets/signing-key
+
+# local builds
+lib/
+build/
+*/build/
+
+# asdf version file
+.tool-versions
+
